@@ -1,0 +1,8 @@
+{
+    "title": "Новость3",
+    "description": "Краткое описание третей новости",
+    "body": "<div><b>Новость3</b> и её полное описание <a href='https://google.com'>google</a>",
+    "create_at": "2020-04-16",
+    "list_image": "news/list/news1.jpg",
+    "detail_image": "news/detail/news1.jpg"
+}
