@@ -3,7 +3,9 @@ const app = express()
 const port = 3000;
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 
+app.use(cors({origin: 'http://localhost:8080'}));
 
 app.use('/static', express.static(path.resolve(__dirname, './static')));
 

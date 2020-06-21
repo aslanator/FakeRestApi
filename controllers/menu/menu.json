@@ -1,16 +1,16 @@
 [
   {
     "title": "О компании",
-    "slug": "about",
+    "slug": "/about",
     "component": "About",
     "childes": [
       {
         "title": "Новости",
-        "slug": "about/news",
+        "slug": "/about/news",
         "component": "News",
         "paths": [
           {
-            "slug": "about/news/:id",
+            "slug": "/about/news/:id",
             "component": "News",
             "template": "Detail"
           }
@@ -20,7 +20,7 @@
   },
   {
     "title": "Контакты",
-    "slug": "contacts",
+    "slug": "/contacts",
     "component": "Contacts"
   }
 ]
